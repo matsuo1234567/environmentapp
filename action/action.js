@@ -29,4 +29,3 @@ window.addEventListener('DOMContentLoaded', (event) => {
         table.appendChild(row);
     }
 });
-
