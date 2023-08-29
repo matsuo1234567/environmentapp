@@ -1,0 +1,23 @@
+.kotae{
+    width: 500px;
+	height: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.home{
+    width: 120px;
+	height: 30px;
+	background-color: darkseagreen;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.tugi{
+    width: 120px;
+	height: 30px;
+	background-color: darkseagreen;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}

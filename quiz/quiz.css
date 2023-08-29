@@ -1,0 +1,62 @@
+
+
+input[type=text] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 20%;
+	margin: 8px 0;
+	padding: 0.3em;
+	transition: 0.3s;
+	border: 1px solid #1b2538;
+	border-radius: 4px;
+	outline: none;
+}
+input[type=text]:focus {
+	border-color: #da3c41;
+}
+
+.monndai{
+	width: 500px;
+	height: 200px;
+	background-color: darkseagreen;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.senntaku1{
+	width: 500px;
+	height: 30px;
+	background-color: darkseagreen;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.senntaku2{
+	width: 500px;
+	height: 30px;
+	background-color: darkseagreen;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.senntaku3{
+	width: 500px;
+	height: 30px;
+	background-color: darkseagreen;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+
+
