@@ -48,3 +48,9 @@ feature: 新機能
 ## プル
 `git pull origin main`
 
+## カラーパレット
+```
+グリーン: #4DA768
+白: #FFFEF6
+黒: #000B00
+```
