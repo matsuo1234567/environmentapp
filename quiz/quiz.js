@@ -1,90 +1,90 @@
 const quizs =  [
     {
-        q:"もんだいもんだいもんだい",
+        q:"北九州市で行われている北九州市環境首都検定の受験料は？",
         pt:"3",
         answers: [
             {
-                text:"まちがえの答え5",
-                bool: "false"
-            },
-            {
-                text:"正解の答え5",
+                text:"無料",
                 bool: "true"
             },
             {
-                text:"まちがえの答え5",
+                text:"1000円",
+                bool: "false"
+            },
+            {
+                text:"3500円",
                 bool: "false"
             },
         ]
     },
     {
-        q:"もんだいもんだいもんだい2",
+        q:"2019年における北九州市のco2排出量は？",
         pt:"3",
         answers: [
             {
-                text:"正解の答え5",
-                bool: "true"
-            },
-            {
-                text:"まちがえの答え5",
+                text:"5000千トン",
                 bool: "false"
             },
             {
-                text:"まちがえの答え5",
+                text:"14,784千トン",
+                bool: "true"
+            },
+            {
+                text:"550千トン",
                 bool: "false"
             },
         ]
     },
     {
-        q:"もんだいもんだいもんだい3",
+        q:"北九州市の資源とゴミの分け方は、市が回収しないものを除いていくつありますか？",
         pt:"3",
         answers: [
             {
-                text:"正解の答え5",
-                bool: "true"
-            },
-            {
-                text:"まちがえの答え5",
+                text:"25種類",
                 bool: "false"
             },
             {
-                text:"まちがえの答え5",
+                text:"5種類",
+                bool: "false"
+            },
+            {
+                text:"13種類",
+                bool: "true"
+            },
+        ]
+    },
+    {
+        q:"北九州市の環境活動などの総合拠点のタカミヤ環境ミュージアムは北九州市のどこにありますか？",
+        pt:"3",
+        answers: [
+            {
+                text:"八幡西区",
+                bool: "false"
+            },
+            {
+                text:"八幡東区",
+                bool: "true"
+            },
+            {
+                text:"小倉北区",
                 bool: "false"
             },
         ]
     },
     {
-        q:"もんだいもんだいもんだい4",
+        q:"2019年における北九州市の家庭から出た食品ロスの量は？",
         pt:"3",
         answers: [
             {
-                text:"正解の答え5",
+                text:"2.6万t",
                 bool: "true"
             },
             {
-                text:"まちがえの答え5",
+                text:"1.2t",
                 bool: "false"
             },
             {
-                text:"まちがえの答え5",
-                bool: "false"
-            },
-        ]
-    },
-    {
-        q:"もんだいもんだいもんだい5",
-        pt:"3",
-        answers: [
-            {
-                text:"正解の答え5",
-                bool: "true"
-            },
-            {
-                text:"まちがえの答え5",
-                bool: "false"
-            },
-            {
-                text:"まちがえの答え5",
+                text:"40.5t",
                 bool: "false"
             },
         ]
