@@ -1,0 +1,11 @@
+input{
+    font: 15px/24px sans-serif;
+    box-sizing: border-box;
+    width: 20%;
+    margin: 8px 0;
+    padding: 0.3em;
+    transition: 0.3s;
+    border: 1px solid #1b2538;
+    border-radius: 4px;
+    outline: none;
+}
