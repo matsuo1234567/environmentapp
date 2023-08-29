@@ -6,14 +6,32 @@
     <meta name="description" content="クイズ" />
     <meta viewport="width=device-width, initial-scale=1.0" />
     <title>クイズ</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./quiz.css">
+    <link rel="stylesheet" href="../header.css">
   </head>
   <header>
     <p>クイズ</p>
   </header>
   <body>
    
-    <h1>Hello Html</h1>
+    <p><h1>もんだい</h1></p>
+    <div class="monndai">
+      <p id="question"></p>
+    </div>
+    
+    <h1>おなまえ</h1>
+    
+    <input type="text">
+
+    <h2>こたえをえらんでください</h2>
+
+    <ul id="choices">
+      <li><button id="choice1"></button></li>
+      <li><button id="choice2"></button></li>
+      <li><button id="choice3"></button></li>
+    </ul>
+
+
     <script src="quiz.js"></script>
   </body>
 </html>
