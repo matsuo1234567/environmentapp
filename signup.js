@@ -11,7 +11,7 @@ doneButton.addEventListener('click', function() {
     .catch(function (error) {
         console.log(error);
     }); 
-    // window.location.href = 'index.html';
+     window.location.href = 'index.html';
 });
 
 const name = localStorage.getItem('name');

@@ -1,65 +1,54 @@
-
-
-.radius1{
-   
-    border-radius: 10px;
-    margin-right: 10px;
-    width: 300px;
-    height: 50px;
-    padding:12px;
-    display: inline-block;
-    margin-top: 10px;
-    background-color: #4DA768;
+.radius1 {
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 300px;
+  height: 50px;
+  padding: 12px;
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #4da768;
 }
- .radius3{
-   
-    border-radius: 10px;
-    margin-right: 10px;
-    width: 300px;
-    height: 50px;
-    padding:12px;
-    display: inline-block;
-    margin-top: 10px;
-    background-color: #4DA768;
- }
-
- .botan1{
-    background-color: #4DA768;
-    padding: 50px 130px;
-    font-size: 60px;
-    color: #FFFEF6;
-    border-radius: 10px;
- }
- .botan2{
-    font-size: 60px;
-    padding: 60px 70px;
-    background-color: #4DA768;
-    color: #FFFEF6;
-    border-radius: 10px;
-    
- }
-
- body{
-    background-color: #FFFEF6;
- }
-
-.rank{
-    font-size: 20px;
+.radius3 {
+  border-radius: 10px;
+  margin-right: 10px;
+  width: 300px;
+  height: 50px;
+  padding: 12px;
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #4da768;
 }
 
-.point{
-    font-size: 20px;
+.botan {
+  background-color: #4da768;
+  padding: 50px 130px;
+  font-size: 60px;
+  color: #fffef6;
+  border-radius: 10px;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 
-.point2{
-    font-size: 20px;
-    padding-top: 50px;
+body {
+  background-color: #fffef6;
 }
 
-.radius4{
-    text-align: right;
+.rank {
+  font-size: 20px;
 }
 
-.juni{
-    padding: 20px;
+.point {
+  font-size: 20px;
+}
+
+.point2 {
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.radius4 {
+  text-align: right;
+}
+
+.juni {
+  padding: 20px;
 }

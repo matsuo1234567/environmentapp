@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<lang="ja">
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="ホーム" />
-    <meta viewport="width=device-width, initial-scale=1.0" />
-    <title>ホーム</title>
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="index.css">
-  </head>
+<lang ="ja">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="description" content="ホーム" />
+      <meta viewport="width=device-width, initial-scale=1.0" />
+      <title>ホーム</title>
+      <link rel="stylesheet" href="header.css" />
+      <link rel="stylesheet" href="index.css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    </head>
 
-  <body>
-
-    <h5 class="rank">いまのランキング</h5>
-    <div class="radius1">
-      <div class="juni">
-        <p style="display: inline">位</p> 
-        <p style="display: inline">/</p>
-        <p style="display: inline" >位</p> 
+    <body>
+      <h5 class="rank">いまのランキング</h5>
+      <div class="radius1">
+        <div class="juni">
+          <p style="display: inline">位</p>
+          <p style="display: inline">/</p>
+          <p style="display: inline">位</p>
+        </div>
       </div>
-    </div>
 
-    <h5 class="point">ポイント</h5>
-    <div class="radius3">
-        <p class=point></p>
-      <p class="radius4">pt</p>    
-    </div>
+      <h5 class="point">ポイント</h5>
+      <div class="radius3">
+        <p class="point"></p>
 
-    <h5 class="point2">ポイントをためる</h5>
+      </div>
 
-    <button onclick="location.href='quiz/quiz.html'" class="botan1">クイズ</button>
-    <p>↑</p>
-    <p>ボタンをおしてね</p>
-    <p>↓</p>
+      <h5 class="point2">ポイントをためる</h5>
 
-    <button onclick="location.href='action/action.html'" class="botan2">アクション</button>
-  
-    <script src="index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-  </body>
-</html>
+      <button onclick="location.href='quiz/quiz.html'" class="botan">
+        クイズ
+      </button>
+
+      <button onclick="location.href='action/action.html'" class="botan">
+        アクション
+      </button>
+
+      <script src="index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    </body>
+  </html>
+</lang>
