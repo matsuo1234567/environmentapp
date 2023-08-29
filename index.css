@@ -1,5 +1,7 @@
+
+
 .radius1{
-    border: 6px outset green;
+   
     border-radius: 10px;
     margin-right: 10px;
     width: 300px;
@@ -7,10 +9,10 @@
     padding:12px;
     display: inline-block;
     margin-top: 10px;
-    background-color: rgb(196, 246, 201);
+    background-color: #4DA768;
 }
  .radius3{
-    border: 6px outset green;
+   
     border-radius: 10px;
     margin-right: 10px;
     width: 300px;
@@ -18,27 +20,27 @@
     padding:12px;
     display: inline-block;
     margin-top: 10px;
-    background-color: rgb(196, 246, 201);
+    background-color: #4DA768;
  }
 
  .botan1{
-    background-color: rgb(183, 236, 183);
+    background-color: #4DA768;
     padding: 50px 130px;
     font-size: 60px;
-    border: 6px outset green;
+    color: #FFFEF6;
     border-radius: 10px;
  }
  .botan2{
     font-size: 60px;
     padding: 60px 70px;
-    background-color: rgb(196, 246, 201);
-    border: 6px outset green;
+    background-color: #4DA768;
+    color: #FFFEF6;
     border-radius: 10px;
     
  }
 
  body{
-    background-color: rgb(249, 249, 249);
+    background-color: #FFFEF6;
  }
 
 .rank{
