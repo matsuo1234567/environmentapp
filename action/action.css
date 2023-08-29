@@ -32,3 +32,13 @@
 .underline {
     text-decoration: underline;
 }
+
+#actionTable td {
+    padding: 10px;
+}
+
+#actionTable tr:nth-child(even) {
+    background-color: #FFFEF6;
+}
+
+

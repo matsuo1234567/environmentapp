@@ -60,3 +60,17 @@ choice3Element.addEventListener("click",huseikai)
 
 
 
+window.onload = function() {
+    console.log(localStorage.getItem('user_id'))
+    axios.post('http://kyuuri.daa.jp/waitingList/insertRanking.php', {
+        user_id: localStorage.getItem('user_id'),
+        point: 3,
+    })
+    .then(function (response) {
+        console.log(response.data);
+    })
+    .catch(function (error) {
+        console.log(error);
+    }); 
+}
+     
