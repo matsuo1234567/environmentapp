@@ -1,10 +1,12 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     const data = [
-        { points: 1, task: "ごはんをかんしょく" },
+        { points: 2, task: "ごはんをかんしょく" },
         { points: 2, task: "エコバッグをもっていく" },
         { points: 3, task: "ごみをもっていく" },
         { points: 4, task: "でんしゃをつかう" },
-        { points: 5, task: "バスをつかう" },
+        { points: 3, task: "バスをつかう" },
+        { points: 4, task: "ふくおかでつくられたたべものをえらぶ" },
+        { points: 2, task: "LEDでんきゅうをえらぶ" },
     ];
 
     const table = document.getElementById('actionTable');
