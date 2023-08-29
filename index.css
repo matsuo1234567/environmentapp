@@ -1,0 +1,63 @@
+.radius1{
+    border: 6px outset green;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 50px;
+    padding:12px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(196, 246, 201);
+}
+ .radius3{
+    border: 6px outset green;
+    border-radius: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 50px;
+    padding:12px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(196, 246, 201);
+ }
+
+ .botan1{
+    background-color: rgb(196, 246, 201);
+    padding: 50px 130px;
+    font-size: 60px;
+    border: 6px outset green;
+    border-radius: 10px;
+ }
+ .botan2{
+    font-size: 60px;
+    padding: 60px 70px;
+    background-color: rgb(196, 246, 201);
+    border: 6px outset green;
+    border-radius: 10px;
+    
+ }
+
+ body{
+    background-color: rgb(249, 249, 249);
+ }
+
+.rank{
+    font-size: 20px;
+}
+
+.point{
+    font-size: 20px;
+}
+
+.point2{
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.radius4{
+    text-align: right;
+}
+
+.juni{
+    padding: 20px;
+}
