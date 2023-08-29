@@ -13,7 +13,7 @@
     font-size: 100px;
     color: #FFFEF6;
     border-radius: 10px;
-    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro";
+    font-family: "Zen Maru Gothic", sans-serif;
     margin-bottom: 150px;
  }
 
@@ -23,13 +23,10 @@
     background-color: #4DA768;
     color: #FFFEF6;
     border-radius: 10px;
-    font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro";
+    font-family: "Zen Maru Gothic", sans-serif;
     
  }
 
- body{
-    background-color: #FFFEF6;
- }
 
 .rank{
     font-size: 50px;
