@@ -76,15 +76,15 @@ const quizs =  [
         pt:"3",
         answers: [
             {
-                text:"2.6万t",
+                text:"2,6万t",
                 bool: "true"
             },
             {
-                text:"1.2t",
+                text:"1,2t",
                 bool: "false"
             },
             {
-                text:"40.5t",
+                text:"40,5t",
                 bool: "false"
             },
         ]
