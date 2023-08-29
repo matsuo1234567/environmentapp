@@ -5,10 +5,13 @@ const indexStr = localStorage.getItem("index")
 const indexNum=  Number(indexStr)
 
 
-document.getElementById("point")
-const pointElement=document.getElementById("point")
-pointElement.textContent=hai[indexNum].pt
-
+for (let qIndex = 0; qIndex < hai[indexNum].answers.length; qIndex++) {
+    console.log("いふぶん",hai[indexNum].answers[qIndex].bool)
+    if(hai[indexNum].answers[qIndex].bool=="true"){
+        const kotaeElement=document.getElementById("kotae")
+        kotaeElement.textContent=hai[indexNum].answers[qIndex].text
+    }  
+ }
 
 document.getElementById("ie")
 const ieElement=document.getElementById("ie")
@@ -21,7 +24,6 @@ function home(){
 ieElement.addEventListener("click",home)
 
 if(indexNum==4){
-    console.log("実行されてる？")
     //document.getElementById("tugii")
     const tugiiElement=document.getElementById("tugii")
     tugiiElement.textContent="終了！"
@@ -32,9 +34,11 @@ if(indexNum==4){
     tugiiElement.addEventListener("click",tugi)
     localStorage.setItem("index",0)
 } else{
+
     document.getElementById("tugii")
     const tugiiElement=document.getElementById("tugii")
     tugiiElement.textContent="次の問題"
+
 
     function tugi(){
         const indexStr = localStorage.getItem("index")
