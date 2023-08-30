@@ -20,7 +20,7 @@ input[type="text"]:focus {
   margin: 10px;
   display: inline-block;
   width: 700px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 ul {
@@ -39,24 +39,24 @@ h1 {
 }
 
 #question {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 #choice1 {
   display: block;
   height: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
   font-size: 50px;
 }
 #choice2 {
 	display: block;
 	height: 100%;
-	padding: 20px 0;
+	padding: 10px 0;
 	font-size: 50px;
   }
   #choice3 {
 	display: block;
 	height: 100%;
-	padding: 20px 0;
+	padding: 10px 0;
 	font-size: 50px;
   }

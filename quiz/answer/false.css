@@ -1,10 +1,11 @@
 .kotae{
     width: 500px;
-	height: 80px;
+	height: 160px;
 	margin-left: auto;
 	margin-right: auto;
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 100px;
+    
 }
 
 .home{
@@ -18,8 +19,10 @@
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-    height: 60px;
 
+    height: 160px;
+    font-size: 50px;
+    margin-bottom: 50px;
 
 }
 .tugi{
@@ -33,8 +36,10 @@
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-    height: 60px;
 
+    height: 160px;
+    font-size: 50px;
+    margin-bottom: 50px;
 
 }
 
