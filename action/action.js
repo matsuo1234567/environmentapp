@@ -5,11 +5,11 @@ window.addEventListener('DOMContentLoaded', (event) => {
         { points: 3, task: "ごみをもっていく" },
         { points: 4, task: "でんしゃをつかう" },
         { points: 3, task: "バスをつかう" },
-        { points: 4, task: "ふくおかでつくられたたべものをえらぶ" },
+        { points: 2, task: "じてんしゃをつかう" },
         { points: 2, task: "LEDでんきゅうをえらぶ" },
     ];
 
-    const table = document.getElementById('actionTable');
+    const table = document.getElementById('tbody');
     for (const item of data) {
         const row = document.createElement('tr');
 
