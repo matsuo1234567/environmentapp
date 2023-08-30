@@ -8,7 +8,7 @@ doneButton.addEventListener('click', function() {
     .then(function (response) {
         console.log(response.data);
         localStorage.setItem('user_id', response.data.user_id);
-        window.location.href = '../home/home.html';
+        window.location.href = 'https://matsuo1234567.github.io/environmentapp/home/home.html';
       
     })
     .catch(function (error) {
