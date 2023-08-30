@@ -18,8 +18,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-    height: 60px;
-    font-size: 25px;
+    height: 160px;
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 .tugi{
     background-color: #4DA768;
@@ -32,9 +33,9 @@
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-    height: 60px;
-    font-size: 25px;
-
+    height: 160px;
+    font-size: 50px;
+    margin-bottom: 50px;
 }
 
 h1{
