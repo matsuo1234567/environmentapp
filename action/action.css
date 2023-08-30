@@ -43,4 +43,21 @@
     background-color: #FFFEF6;
 }
 
+.ac{
+    font-size: 80px;
+}
 
+#actionTable{
+    font-size: 50px;
+}
+
+#pointDisplay{
+    font-size: 80px;
+    margin-bottom: 100px;
+}
+
+#homeButton{
+    width: 450px;
+    height: 100px;
+    font-size: 50px;
+}

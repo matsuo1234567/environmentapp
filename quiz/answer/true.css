@@ -1,5 +1,5 @@
 h2{
-    font-size: 70px;
+    font-size: 100px;
 }
 .home{
 	background-color: #4DA768;
@@ -9,6 +9,11 @@ h2{
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 60px;
+    font-size: 25px;
 }
 .tugi{
     background-color: #4DA768;
@@ -18,4 +23,13 @@ h2{
     margin: 10px;
     border-radius: 10px;
     cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    height: 60px;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 100px;
 }
