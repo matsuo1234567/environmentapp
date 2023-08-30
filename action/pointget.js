@@ -1,10 +1,3 @@
-/*const points = localStorage.getItem('selectedPoints');
-document.getElementById('pointDisplay').textContent += selectedPoints;
-
-const homeButton = document.getElementById('homeButton');
-homeButton.addEventListener('click', function () {
-    window.location.href = '../home.html';
-});*/
 
 const selectedPoints = localStorage.getItem('selectedPoints');
 const text = document.getElementById('pointDisplay').textContent
@@ -18,6 +11,13 @@ window.onload = function() {
     })
     .then(function (response) {
         console.log(response.data);
+    
+const homeButton = document.getElementById('homeButton');
+homeButton.addEventListener('click', function () {
+    window.location.href = '../home/home.html';
+    
+    
+});
     })
     .catch(function (error) {
         console.log(error);
