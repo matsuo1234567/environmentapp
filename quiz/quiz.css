@@ -1,72 +1,62 @@
-
-
-input[type=text] {
-	font: 15px/24px sans-serif;
-	box-sizing: border-box;
-	width: 20%;
-	margin: 8px 0;
-	padding: 0.3em;
-	transition: 0.3s;
-	border: 1px solid #1b2538;
-	border-radius: 4px;
-	outline: none;
+input[type="text"] {
+  font: 15px/24px sans-serif;
+  box-sizing: border-box;
+  width: 20%;
+  margin: 8px 0;
+  padding: 0.3em;
+  transition: 0.3s;
+  border: 1px solid #1b2538;
+  border-radius: 4px;
+  outline: none;
 }
-input[type=text]:focus {
-	border-color: #da3c41;
+input[type="text"]:focus {
+  border-color: #da3c41;
 }
 
-
-
-.senntaku1{
-	border-radius: 10px;
-    border: 10px solid #4DA768;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    width: 700px;
-    height: 50px;
-	margin-bottom: 100px;
-
+.senntaku {
+  border-radius: 10px;
+  border: 10px solid #4da768;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 700px;
+  margin-bottom: 100px;
 }
 
-.senntaku2{
-	border-radius: 10px;
-    border: 10px solid #4DA768;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    width: 700px;
-    height: 50px;
-	margin-bottom: 100px;
+ul {
+  list-style: none;
 }
 
-.senntaku3{
-	border-radius: 10px;
-    border: 10px solid #4DA768;
-    padding: 10px;
-    margin: 10px;
-    display: inline-block;
-    width: 700px;
-    height: 50px;
+h1 {
+  font-size: 100px;
 }
 
-ul{
-	list-style: none;
+.question {
+  font-size: 25px;
+}
+.erabe {
+  font-size: 50px;
 }
 
-h1{
-	font-size: 100px;
+#question {
+  font-size: 30px;
 }
 
-.question{
-	font-size: 25px;
+#choice1 {
+  display: block;
+  height: 100%;
+  padding: 20px 0;
+  font-size: 50px;
 }
-.erabe{
+#choice2 {
+	display: block;
+	height: 100%;
+	padding: 20px 0;
 	font-size: 50px;
-}
-
-#question{
-	font-size: 30px;
-}
-
-
+  }
+  #choice3 {
+	display: block;
+	height: 100%;
+	padding: 20px 0;
+	font-size: 50px;
+  }
