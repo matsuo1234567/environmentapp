@@ -7,7 +7,7 @@ doneButton.addEventListener('click', function() {
         console.log(response.data);
         localStorage.setItem('user_id', response.data.user_id);
         localStorage.setItem('name', document.getElementById('name').value);
-        window.location.href = 'index.html';
+        window.location.href = 'home.html';
     })
     .catch(function (error) {
         console.log(error);

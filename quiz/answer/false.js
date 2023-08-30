@@ -18,7 +18,7 @@ const ieElement=document.getElementById("ie")
 ieElement.textContent="ホームへ戻る"
 
 function home(){
-    location.href="/index.html"
+    location.href="/home.html"
 }
 
 ieElement.addEventListener("click",home)
@@ -29,7 +29,7 @@ if(indexNum==4){
     tugiiElement.textContent="終了！"
 
     function tugi(){
-        location.href="/index.html"
+        location.href="/home.html"
     }
     tugiiElement.addEventListener("click",tugi)
     localStorage.setItem("index",0)
