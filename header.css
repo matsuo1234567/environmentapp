@@ -1,10 +1,14 @@
 header {
     background-color: #4DA768;
-    height: 200px;
+    height: 100px;
     width: 100%;
     color: #FFFEF6;
     font-size: 70px;
     text-align: center;
+}
+header p{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 body{
