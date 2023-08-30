@@ -4,14 +4,15 @@ doneButton.addEventListener('click', function() {
         name: document.getElementById('name').value,
     })
     .then(function (response) {
-        console.log(response.data.user_id);
+        console.log(response.data);
         localStorage.setItem('user_id', response.data.user_id);
         localStorage.setItem('name', document.getElementById('name').value);
+        window.location.href = 'index.html';
     })
     .catch(function (error) {
         console.log(error);
     }); 
-     window.location.href = 'index.html';
+    
 });
 
 const name = localStorage.getItem('name');

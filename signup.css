@@ -17,9 +17,11 @@ input{
     border: 1px solid #1b2538;
     border-radius: 4px;
     outline: none;
+    font-family: "Zen Maru Gothic", sans-serif;
 }
 
 .roundedButton{
 
     font-size: 100px;
+    font-family: "Zen Maru Gothic", sans-serif;
 }
